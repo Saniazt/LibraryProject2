@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.config;
+package com.saniazt.springcourse.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 
 
 @Configuration
-@ComponentScan("ru.alishev.springcourse")
+@ComponentScan("com.saniazt.springcourse")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 
