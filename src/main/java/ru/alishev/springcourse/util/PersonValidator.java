@@ -7,9 +7,7 @@ import org.springframework.validation.Validator;
 import ru.alishev.springcourse.dao.PersonDAO;
 import ru.alishev.springcourse.models.Person;
 
-/**
- * @author Neil Alishev
- */
+
 @Component
 public class PersonValidator implements Validator {
 
